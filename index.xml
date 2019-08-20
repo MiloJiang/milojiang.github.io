@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>我的博客</title>
+    <link>/</link>
+    <description>Recent content on 我的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>/posts/my-first-post/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/my-first-post/</guid>
+      <description>很高兴遇见你 熊密是我们独立创新的产品，旨在帮助iPhone用户更好的记录和保护自己的隐私(照片，日记)，欢迎大家下载体验。您如果有任何的使用建议和意见，可以扫描二维码与我们联系。
+如果你有什么建议，也可以通过 AppStore 留言，或者在 github 上提 issue 。
+祝好~</description>
+    </item>
+    
+  </channel>
+</rss>
