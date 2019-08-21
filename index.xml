@@ -5,7 +5,6 @@
     <link>/</link>
     <description>Recent content on 我的博客</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
@@ -19,6 +18,22 @@
       <description>很高兴遇见你 熊密是我们独立创新的产品，旨在帮助iPhone用户更好的记录和保护自己的隐私(照片，日记)，欢迎大家下载体验。您如果有任何的使用建议和意见，可以扫描二维码与我们联系。
 如果你有什么建议，也可以通过 AppStore 留言，或者在 github 上提 issue 。
 祝好~</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/posts/%E4%BD%BF%E7%94%A8-hugo-%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/%E4%BD%BF%E7%94%A8-hugo-%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</guid>
+      <description>使用 Hugo 搭建个人博客 [Hugo]() 是一个用 Golang 编写的静态网页生成工具，可以用来制作静态网站。用这个工具配合 Github Pages 服务，我们可以非常轻松的搭建个人博客。
+准备 我们需要安装 Hugo，这是一个命令行工具。在 Mac 下，我们可以使用 brew 进行安装
+$ brew install hugo  为了验证我们安装，我们可以在终端下 执行 hugo version
+$ hugo version Hugo Static Site Generator v0.55.6/extended darwin/amd64 BuildDate: unknown  接下来我们需要创建一个Hugo项目，你可以用 Github 来存储这个项目也可以使用别的服务商。这里我使用了 Github。
+小试 Hugo 使用 Hugo 的命令创建一个工程
+$ hugo new site myblog  成功执行后，我们可以看到 hugo 生成了一个名为 myblog 的文件夹，这个就是我们的 Hugo 项目了。
+此时的项目还是一个空工程，还需要下载和设置皮肤才可以看到效果
+$ cd myblog/themes $ git clone https://github.com/htdvisser/hugo-base16-theme.git base16  打开 myblog/config.</description>
     </item>
     
   </channel>
