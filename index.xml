@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>我的博客</title>
-    <link>http://localhost:1313/</link>
+    <link>http://milojiang.github.io/</link>
     <description>Recent content on 我的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 21 Aug 2019 21:41:52 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 27 Aug 2019 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://milojiang.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>关于我</title>
-      <link>http://localhost:1313/about/</link>
+      <link>http://milojiang.github.io/about/</link>
       <pubDate>Wed, 21 Aug 2019 21:41:52 +0800</pubDate>
       
-      <guid>http://localhost:1313/about/</guid>
+      <guid>http://milojiang.github.io/about/</guid>
       
         <description>&lt;p&gt;Hugo is a static site engine written in Go.&lt;/p&gt;
 
@@ -35,11 +35,58 @@
     </item>
     
     <item>
+      <title>试用 Grafana 搭建监控系统</title>
+      <link>http://milojiang.github.io/post/%E8%AF%95%E7%94%A8-grafana-%E6%90%AD%E5%BB%BA%E7%9B%91%E6%8E%A7%E7%B3%BB%E7%BB%9F/</link>
+      <pubDate>Tue, 27 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://milojiang.github.io/post/%E8%AF%95%E7%94%A8-grafana-%E6%90%AD%E5%BB%BA%E7%9B%91%E6%8E%A7%E7%B3%BB%E7%BB%9F/</guid>
+      
+        <description>
+
+&lt;h2 id=&#34;试用-grafana-搭建监控系统&#34;&gt;试用 Grafana 搭建监控系统&lt;/h2&gt;
+
+&lt;h4 id=&#34;概要&#34;&gt;概要&lt;/h4&gt;
+
+&lt;p&gt;Grafana 是一个用来从数据源获取数据进行展示的监控平台，有开源版本和企业版可供选用&lt;/p&gt;
+
+&lt;h4 id=&#34;安装&#34;&gt;安装&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ brew update
+$ brew install grafana
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;启动&#34;&gt;启动&lt;/h4&gt;
+
+&lt;p&gt;如果使用 brew 进行安装，也需要使用brew进行启动&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ brew tap homebrew/services
+$ brew services start grafana
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;执行成功可以看到如下的输出&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;==&amp;gt; Successfully started `grafana` (label: homebrew.mxcl.grafana)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;通过 &lt;a href=&#34;http://localhost:3000&#34;&gt;http://localhost:3000&lt;/a&gt; 就可以访问了，默认的登录用户和密码都是 &lt;code&gt;admin&lt;/code&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;配置&#34;&gt;配置&lt;/h4&gt;
+
+&lt;p&gt;默认的配置文件在 &lt;code&gt;/usr/local/etc/grafana/grafana.ini&lt;/code&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;试用&#34;&gt;试用&lt;/h4&gt;
+
+&lt;p&gt;登入系统后，会提示你&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
       <title>使用 Hugo 搭建个人博客</title>
-      <link>http://localhost:1313/post/%E4%BD%BF%E7%94%A8-hugo-%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</link>
+      <link>http://milojiang.github.io/post/%E4%BD%BF%E7%94%A8-hugo-%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</link>
       <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/%E4%BD%BF%E7%94%A8-hugo-%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</guid>
+      <guid>http://milojiang.github.io/post/%E4%BD%BF%E7%94%A8-hugo-%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</guid>
       
         <description>
 
@@ -89,7 +136,7 @@ $ git clone https://github.com/htdvisser/hugo-base16-theme.git base16
 
 &lt;p&gt;应该可以看到类似的画面了&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/hugo_static.png&#34; alt=&#34;screenshot.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://milojiang.github.io/hugo_static.png&#34; alt=&#34;screenshot.png&#34; /&gt;&lt;/p&gt;
 
 &lt;h4 id=&#34;配置-github&#34;&gt;配置 Github&lt;/h4&gt;
 
@@ -165,10 +212,10 @@ git push origin master
     
     <item>
       <title>很高兴遇见你</title>
-      <link>http://localhost:1313/post/my-first-post/</link>
+      <link>http://milojiang.github.io/post/my-first-post/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/my-first-post/</guid>
+      <guid>http://milojiang.github.io/post/my-first-post/</guid>
       
         <description>
 
@@ -176,7 +223,7 @@ git push origin master
 
 &lt;p&gt;熊密是我们独立创新的产品，旨在帮助iPhone用户更好的记录和保护自己的隐私(照片，日记)，欢迎大家&lt;a href=&#34;https://itunes.apple.com/cn/app/%E7%86%8A%E5%AF%86/id1325928741?mt=8&#34;&gt;下载体验&lt;/a&gt;。您如果有任何的使用建议和意见，可以扫描二维码与我们联系。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/barcode.png&#34; alt=&#34;qrcode.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://milojiang.github.io/barcode.png&#34; alt=&#34;qrcode.png&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;如果你有什么建议，也可以通过 AppStore 留言，或者在 github 上提 issue 。&lt;/p&gt;
 
