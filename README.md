@@ -1,2 +1,0 @@
-# milojiang.github.io
-blog

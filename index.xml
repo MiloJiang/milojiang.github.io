@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>我的博客</title>
+    <title>很高兴遇见你</title>
     <link>http://milojiang.github.io/</link>
-    <description>Recent content on 我的博客</description>
+    <description>Recent content on 很高兴遇见你</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <copyright>milo.jiang</copyright>
     <lastBuildDate>Tue, 27 Aug 2019 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="http://milojiang.github.io/index.xml" rel="self" type="application/rss+xml" />
@@ -19,216 +20,26 @@
       <guid>http://milojiang.github.io/about/</guid>
       
         <description>&lt;p&gt;Hugo is a static site engine written in Go.&lt;/p&gt;
-
 &lt;p&gt;It makes use of a variety of open source projects including:&lt;/p&gt;
-
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/spf13/cobra&#34;&gt;Cobra&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/spf13/viper&#34;&gt;Viper&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/spf13/jWalterWeatherman&#34;&gt;J Walter Weatherman&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/spf13/cast&#34;&gt;Cast&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;Learn more and contribute on &lt;a href=&#34;https://github.com/gohugoio&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
 </description>
       
     </item>
     
     <item>
-      <title>试用 Grafana 搭建监控系统</title>
-      <link>http://milojiang.github.io/post/%E8%AF%95%E7%94%A8-grafana-%E6%90%AD%E5%BB%BA%E7%9B%91%E6%8E%A7%E7%B3%BB%E7%BB%9F/</link>
+      <title>Posts</title>
+      <link>http://milojiang.github.io/post/</link>
       <pubDate>Tue, 27 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://milojiang.github.io/post/%E8%AF%95%E7%94%A8-grafana-%E6%90%AD%E5%BB%BA%E7%9B%91%E6%8E%A7%E7%B3%BB%E7%BB%9F/</guid>
+      <guid>http://milojiang.github.io/post/</guid>
       
-        <description>
-
-&lt;h2 id=&#34;试用-grafana-搭建监控系统&#34;&gt;试用 Grafana 搭建监控系统&lt;/h2&gt;
-
-&lt;h4 id=&#34;概要&#34;&gt;概要&lt;/h4&gt;
-
-&lt;p&gt;Grafana 是一个用来从数据源获取数据进行展示的监控平台，有开源版本和企业版可供选用&lt;/p&gt;
-
-&lt;h4 id=&#34;安装&#34;&gt;安装&lt;/h4&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ brew update
-$ brew install grafana
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h4 id=&#34;启动&#34;&gt;启动&lt;/h4&gt;
-
-&lt;p&gt;如果使用 brew 进行安装，也需要使用brew进行启动&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ brew tap homebrew/services
-$ brew services start grafana
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;执行成功可以看到如下的输出&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;==&amp;gt; Successfully started `grafana` (label: homebrew.mxcl.grafana)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;通过 &lt;a href=&#34;http://localhost:3000&#34;&gt;http://localhost:3000&lt;/a&gt; 就可以访问了，默认的登录用户和密码都是 &lt;code&gt;admin&lt;/code&gt;&lt;/p&gt;
-
-&lt;h4 id=&#34;配置&#34;&gt;配置&lt;/h4&gt;
-
-&lt;p&gt;默认的配置文件在 &lt;code&gt;/usr/local/etc/grafana/grafana.ini&lt;/code&gt;&lt;/p&gt;
-
-&lt;h4 id=&#34;试用&#34;&gt;试用&lt;/h4&gt;
-
-&lt;p&gt;登入系统后，会提示你&lt;/p&gt;
-</description>
-      
-    </item>
-    
-    <item>
-      <title>使用 Hugo 搭建个人博客</title>
-      <link>http://milojiang.github.io/post/%E4%BD%BF%E7%94%A8-hugo-%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</link>
-      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://milojiang.github.io/post/%E4%BD%BF%E7%94%A8-hugo-%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</guid>
-      
-        <description>
-
-&lt;h2 id=&#34;使用-hugo-搭建个人博客&#34;&gt;使用 Hugo 搭建个人博客&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; 是一个用 Golang 编写的静态网页生成工具，可以用来制作静态网站。用这个工具配合 Github Pages 服务，我们可以非常轻松的搭建个人博客。&lt;/p&gt;
-
-&lt;h4 id=&#34;准备&#34;&gt;准备&lt;/h4&gt;
-
-&lt;p&gt;我们需要安装 Hugo，这是一个命令行工具。在 Mac 下，我们可以使用 brew 进行安装&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;$ brew install hugo
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;为了验证我们安装，我们可以在终端下 执行 hugo version&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ hugo version
-Hugo Static Site Generator v0.55.6/extended darwin/amd64 BuildDate: unknown
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;接下来我们需要创建一个Hugo项目，你可以用 Github 来存储这个项目也可以使用别的服务商。这里我使用了 Github。&lt;/p&gt;
-
-&lt;h4 id=&#34;小试-hugo&#34;&gt;小试 Hugo&lt;/h4&gt;
-
-&lt;p&gt;使用 Hugo 的命令创建一个工程&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;$ hugo new site myblog
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;成功执行后，我们可以看到 hugo 生成了一个名为 myblog 的文件夹，这个就是我们的 Hugo 项目了。&lt;/p&gt;
-
-&lt;p&gt;此时的项目还是一个空工程，还需要下载和设置皮肤才可以看到效果&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;$ cd myblog/themes
-$ git clone https://github.com/htdvisser/hugo-base16-theme.git base16
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;打开 myblog/config.toml 增加一行关于皮肤的设置&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;theme = &amp;quot;base16&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;执行本地服务&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;$ hugo server
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;应该可以看到类似的画面了&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://milojiang.github.io/hugo_static.png&#34; alt=&#34;screenshot.png&#34; /&gt;&lt;/p&gt;
-
-&lt;h4 id=&#34;配置-github&#34;&gt;配置 Github&lt;/h4&gt;
-
-&lt;p&gt;在 Github 上建立个人的主页项目，根据 Github 的规则，项目的名字需要跟 Github 的名字一致。项目的链接类似如下的形式：&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;https://&amp;lt;USERNAME&amp;gt;.github.io/
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;此项目会被 Github 默认当做行的主页。Github Page 默认会跟 master 分支进行关联，可以在 Setting 中修改。&lt;/p&gt;
-
-&lt;p&gt;接下来，删除我们 Hugo项目中存在 public/ 文件夹&lt;/p&gt;
-
-&lt;p&gt;将 public 和 Github上的个人主页项目进行关联：&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;$ git submodule add -b master git@github.com:&amp;lt;USERNAME&amp;gt;/&amp;lt;USERNAME&amp;gt;.github.io.git public
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;经过了这一步，我们将 public 下的内容和我们 Github 上个人主页项目做了关联。我们可以在生成 public 内容后，手动更新到 Github 上。为了使整个流程自动化，我们可以使用脚本。在我们建立的 Hugo 项目的根目录下创建一个脚本 deploy.sh&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;#!/bin/sh
-
-# If a command fails then the deploy stops
-set -e
-
-printf &amp;quot;\033[0;32mDeploying updates to GitHub...\033[0m\n&amp;quot;
-
-# Build the project.
-hugo # if using a theme, replace with `hugo -t &amp;lt;YOURTHEME&amp;gt;`
-
-# Go To Public folder
-cd public
-
-# Add changes to git.
-git add .
-
-# Commit changes.
-msg=&amp;quot;rebuilding site $(date)&amp;quot;
-if [ -n &amp;quot;$*&amp;quot; ]; then
-	msg=&amp;quot;$*&amp;quot;
-fi
-git commit -m &amp;quot;$msg&amp;quot;
-
-# Push source and build repos.
-git push origin master
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;为这个脚本添加可执行权限&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;$ chmod a+x deploy.sh
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;这样我们每次增加文章时，只需要执行 deploy.sh 就可以了&lt;/p&gt;
-
-&lt;h4 id=&#34;增加文章&#34;&gt;增加文章&lt;/h4&gt;
-
-&lt;p&gt;hugo 为我们提供了命令可以方便的增加内容&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;$ hugo new posts/my-first-post.md
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;你当然也可以手动在 content/posts/ 下添加文件&lt;/p&gt;
-
-&lt;p&gt;这里要特别说明的是静态图片，hugo 提供了静态图片的统一存储地址 static ，凡是放在 static 下的内容，都会在部署后通过 url 被访问到，例如 &lt;code&gt;static/image.png&lt;/code&gt; 文件在部署后，可以通过 &lt;code&gt;http://{server-url}/image.png&lt;/code&gt; 访问到。&lt;/p&gt;
-
-&lt;h4 id=&#34;参考&#34;&gt;参考&lt;/h4&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://gohugo.io/getting-started/quick-start/&#34;&gt;https://gohugo.io/getting-started/quick-start/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://gohugo.io/hosting-and-deployment/hosting-on-github/#readout&#34;&gt;https://gohugo.io/hosting-and-deployment/hosting-on-github/#readout&lt;/a&gt;&lt;/p&gt;
-</description>
-      
-    </item>
-    
-    <item>
-      <title>很高兴遇见你</title>
-      <link>http://milojiang.github.io/post/my-first-post/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://milojiang.github.io/post/my-first-post/</guid>
-      
-        <description>
-
-&lt;h2 id=&#34;很高兴遇见你&#34;&gt;很高兴遇见你&lt;/h2&gt;
-
-&lt;p&gt;熊密是我们独立创新的产品，旨在帮助iPhone用户更好的记录和保护自己的隐私(照片，日记)，欢迎大家&lt;a href=&#34;https://itunes.apple.com/cn/app/%E7%86%8A%E5%AF%86/id1325928741?mt=8&#34;&gt;下载体验&lt;/a&gt;。您如果有任何的使用建议和意见，可以扫描二维码与我们联系。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://milojiang.github.io/barcode.png&#34; alt=&#34;qrcode.png&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;如果你有什么建议，也可以通过 AppStore 留言，或者在 github 上提 issue 。&lt;/p&gt;
-
-&lt;p&gt;祝好~&lt;/p&gt;
-</description>
+        <description></description>
       
     </item>
     
