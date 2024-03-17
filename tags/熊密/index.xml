@@ -2,20 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>熊密 on 很高兴遇见你</title>
-    <link>http://milojiang.github.io/tags/%E7%86%8A%E5%AF%86/</link>
+    <link>https://milojiang.github.io/tags/%E7%86%8A%E5%AF%86/</link>
     <description>Recent content in 熊密 on 很高兴遇见你</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>milo.jiang</copyright>
-    <lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate><atom:link href="http://milojiang.github.io/tags/%E7%86%8A%E5%AF%86/index.xml" rel="self" type="application/rss+xml" />
+    <language>cn</language>
+    <lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://milojiang.github.io/tags/%E7%86%8A%E5%AF%86/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>很高兴遇见你</title>
-      <link>http://milojiang.github.io/post/my-first-post/</link>
+      <link>https://milojiang.github.io/post/my-first-post/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://milojiang.github.io/post/my-first-post/</guid>
-      <description>很高兴遇见你 熊密是我们独立创新的产品，旨在帮助iPhone用户更好的记录和保护自己的隐私(照片，日记)，欢迎大家下载体验。您如果有任何的使用</description>
+      <guid>https://milojiang.github.io/post/my-first-post/</guid>
+      <description>很高兴遇见你 #熊密是我们独立创新的产品，旨在帮助iPhone用户更好的记录和保护自己的隐私(照片，日记)，欢迎大家下载体验。您如果有任何的使用建议和意见，可以扫描二维码与我们联系。</description>
     </item>
-    
   </channel>
 </rss>
